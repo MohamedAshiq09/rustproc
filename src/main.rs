@@ -20,15 +20,29 @@ fn main() {
     //let cond2 = !(true && cond);
     //print!("{}",cond2);
     // rust conditional operator
-    let food = "rice";
+    // let food = "rice";
 
-    if food == "rice" {
-        print!("it's nice");
-    } else if food == "bread" {
-        print! ("it's awesome");    
-    } else {
-        print!("not bad");
-    }
+    // if food == "rice" {
+    //     print!("it's nice");
+    // } else if food == "bread" {
+    //     print! ("it's awesome");    
+    // } else {
+    //     print!("not bad");
+    // }
+    // let x = 10;
+    // if x==10 {
+    //     print!("valid");
+    // }else if x == 5{
+    //     print!("not valid");
+    // }else{
+    //     print!("no user exists");
+    // }
+    // let greeting = String :: from ("hello world");
+    // print!("{}",greeting);
+    // let gfga = String::from("hello world"); 
+    // print!("{}",gfga);
+    let x = String::from("ashiq");
+    print!("{}",x);
 
 
 
