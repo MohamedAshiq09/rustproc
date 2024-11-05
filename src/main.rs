@@ -1,3 +1,5 @@
+
+
 fn main() {
     // boolean operators 
     //print!("1<4 is {}", 1<4);
@@ -41,9 +43,34 @@ fn main() {
     // print!("{}",greeting);
     // let gfga = String::from("hello world"); 
     // print!("{}",gfga);
-    let x = String::from("ashiq");
-    print!("{}",x);
+    // let x = String::from("ashiq");
+    // print!("{}",x);
+    // let mut is_even = true ;
+    //  if is_even{
+    //     print!("is_even");
+    //  } else if !is_even {
+    //     print!("the number is odd");
+    //  } else {
+    //     print!("no number")
+    //  }
+    // for i in 0..10
+    // {
+    //     print!("{}",i);
+    // }
+    let para = String::from("a shiq");
+    let first_word = get_first_word(para);
 
+    print!("the first word is : {}", first_word);
 
+} 
 
-}
+fn get_first_word (para: String) -> String {
+    let mut ans = String::from("");
+    for char in para.chars() {
+        ans.push_str(char.to_string().as_str());
+        if char == ' ' {
+            break;
+        }
+    }
+    return ans;
+} 
